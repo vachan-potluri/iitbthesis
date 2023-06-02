@@ -44,12 +44,12 @@
     \def\StudentName{#3}
     \def\StudentRollNo{#4}
     \begin{center}
-        {\Huge #1}\\[2em]
+        {\Huge \Title}\\[2em]
         {Submitted in partial fulfillment of the requirements\\of the degree of}\\[1em]
-        {\Large #2}\\[1em]
+        {\large \Degree}\\[1em]
         {by}\\
-        {\large #3}\\
-        {\large Roll \# #4}\\[1em]
+        {\large \StudentName}\\
+        {\large Roll \# \StudentRollNo}\\[1em]
         {Supervisor(s):}\\
         {\large #5}\\[1em]
         \includegraphics[width=0.3\linewidth]{iitb_logo.pdf}\\[1em]
@@ -64,7 +64,6 @@
 \NewDocumentCommand{\Dedication}{%
     m % dedication text
 }{%
-    \thispagestyle{plain}
     \vspace*{\fill}
     \begin{center}
         #1
@@ -77,7 +76,6 @@
     O{3} % number of examiners
     O{2} % number of supervisors
 }{%
-    \thispagestyle{plain}
     \newlength{\UnderlineWidth}
     \setlength\UnderlineWidth{15em}
     \newlength{\VertBlockSpacing}
@@ -104,7 +102,6 @@
 
 \NewDocumentCommand{\Declaration}{%
 }{%
-    \thispagestyle{plain}
     \PageTitle{Declaration of Academic Honesty}
     I declare that this written submission represents my ideas in my own words and where others' ideas or words have been included, I have adequately cited and referenced the original sources. I also declare that I have adhered to all principles of academic honesty and integrity and have not misrepresented or fabricated or falsified any idea/data/fact/source in my submission. I understand that any violation of the above will be cause for disciplinary action by the Institute and can also evoke penal action from the sources which have thus not been properly cited or from whom proper permission has not been taken when needed.
     \vspace{\VertBlockSpacing}
@@ -121,7 +118,6 @@
 \NewDocumentCommand{\Abstract}{%
     m % abstract content
 }{%
-    \thispagestyle{plain}
     \PageTitle{Abstract}
     #1
     \cleardoublepage
