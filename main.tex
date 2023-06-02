@@ -10,12 +10,22 @@
 \Dedication{I dedicate this thesis to...}
 \Approval[4][2]
 \Declaration
+\Abstract{Text}
+\tableofcontents
+\listoffigures
+\listoftables
+\Nomenclature{All symbols/abbreviations used}
 
 \mainmatter
 \chapter{A small chapter}
 Hi
 \par \blindtext
 \par \blindtext
+\begin{figure}[htb]
+    \centering
+    \includegraphics[width=0.5\linewidth]{example-image-a}
+    \caption{A figure}
+\end{figure}
 
 \chapter{A medium sized chapter}
 \blindtext[10]
@@ -24,5 +34,14 @@ Hi
 
 \chapter{Another small chapter}
 \blindtext
+\begin{table}
+    \centering
+    \caption{A table}
+    \begin{tabular}{ll}
+        \hline
+        A & B\\
+        \hline
+    \end{tabular}
+\end{table}
 
 \end{document}
