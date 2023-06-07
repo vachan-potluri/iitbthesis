@@ -44,7 +44,7 @@
     \def\StudentName{#3}
     \def\StudentRollNo{#4}
     \begin{center}
-        {\Huge \Title}\\[2em]
+        {{\setstretch{1} \Huge \Title \par}}\vspace{1em} % https://tex.stackexchange.com/a/239395/133968 (\par at the end)
         {Submitted in partial fulfillment of the requirements\\of the degree of}\\[1em]
         {\large \Degree}\\[1em]
         {by}\\
