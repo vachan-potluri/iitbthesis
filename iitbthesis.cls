@@ -9,7 +9,7 @@
 \LoadClass[12pt, a4paper]{book}
 
 \RequirePackage[varg]{newtx} % times fonts
-\usepackage{emptypage} % prevent page numbering on empty page
+\RequirePackage{emptypage} % prevent page numbering on empty page
 \RequirePackage[
     top=30mm,
     bottom=52mm,
@@ -19,11 +19,11 @@
     headsep=12mm,
     footskip=10mm,
 ]{geometry} % page margins
-\usepackage{graphicx} % loading iitb logo
+\RequirePackage{graphicx} % loading iitb logo
 \RequirePackage[indent=12mm]{parskip} % setting \parskip and \parindent
-\usepackage{pgffor} % \foreach loop
+\RequirePackage{pgffor} % \foreach loop
 \RequirePackage[onehalfspacing]{setspace} % line stretching (spacing)
-\usepackage{xparse} % declaring commands for front matter
+\RequirePackage{xparse} % declaring commands for front matter
 
 \newcommand{\BlankUnderline}[1]{\underline{\hspace{#1}}} % adds a blank underline of a certain length
 \newcommand{\PageTitle}[1]{%
