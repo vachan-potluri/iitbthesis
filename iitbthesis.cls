@@ -37,7 +37,7 @@
 } % a stanalone page title for front matter
 
 \NewDocumentCommand{\Abstract}{%
-    m % abstract content
+    +m % abstract content (+ allows for \par in the argument, https://tex.stackexchange.com/a/64329/133968)
 }{%
     \cleardoublepage
     \PageTitle{Abstract}
