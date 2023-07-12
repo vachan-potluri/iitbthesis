@@ -51,6 +51,14 @@
     \cleardoublepage
     \PageTitle{Acknowledgement}
     #1
+    \vspace{\VertBlockSpacing}
+    \begin{flushright}
+        \BlankUnderline{\UnderlineWidth}\\
+        \StudentName\\
+        Roll \# \StudentRollNo
+    \end{flushright}
+    \vspace{\VertBlockSpacing}
+    Date: \BlankUnderline{0.5\UnderlineWidth}
     \cleardoublepage
 }
 
