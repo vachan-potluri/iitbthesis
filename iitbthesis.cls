@@ -46,7 +46,7 @@
 }
 
 \NewDocumentCommand{\Acknowledgement}{%
-    m % acknowledgement content
+    +m % acknowledgement content
 }{%
     \cleardoublepage
     \PageTitle{Acknowledgement}
