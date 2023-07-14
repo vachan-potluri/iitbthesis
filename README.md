@@ -1,3 +1,4 @@
+# What
 A minimalistic IITB PhD thesis template, created as an alternative to https://github.com/psunthar/iitbreport.
 
 # Why
@@ -7,7 +8,7 @@ For instance, users have to set the header/footer, load bibliography packages, d
 
 Advanced TeX users who prefer their own customisations may find this template more convenient.
 
-# What it does
+# Details
 [iitbthesis.cls](iitbthesis.cls) specifies the following settings
 - A4 page size
 - 12pt font size
@@ -30,5 +31,5 @@ Use cases, and the stipulated ordering of these commands can be found in [main.t
 
 # Usage
 - Download [iitbthesis.cls](iitbthesis.cls) and [iitb_logo.pdf](iitb_logo.pdf) into your working folder, or any other folder that your TeX compiler can detect
-    - May be of use: https://tex.stackexchange.com/questions/1137/where-do-i-place-my-own-sty-or-cls-files-to-make-them-available-to-all-my-te
+    - May be helpful: https://tex.stackexchange.com/questions/1137/where-do-i-place-my-own-sty-or-cls-files-to-make-them-available-to-all-my-te
 - Use `\documentclass{iitbthesis}` in your TeX file
