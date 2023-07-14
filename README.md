@@ -1,5 +1,5 @@
 # What
-A minimalistic IITB PhD thesis template, created as an alternative to https://github.com/psunthar/iitbreport.
+A minimalistic IITB thesis template, created as an alternative to https://github.com/psunthar/iitbreport.
 
 # Why
 [iitbthesis.cls](iitbthesis.cls) only sets the absolutely mandatory requirements as specified in https://www.iitb.ac.in/newacadhome/rules/Dissertation17june09-10.pdf, and nothing more.
